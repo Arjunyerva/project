@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/arjun.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+	<title>student calculate</title> 
+	<link href="./student calculate_files/css" rel="stylesheet"> 
+	<link rel="stylesheet" href="./student calculate_files/arjun.css"> 
+</head> 
+<body> 
+	<div class="container"> 
+	<h1>Student grade calculator</h1> 
+	<div class="screen-body-item"> 
+		<div class="app"> 
+		<div class="form-group"> 
+			<input type="text" class="form-control" placeholder="databasemanagement" id="databasemanagement" fdprocessedid="l8di8s"> 
+		</div> 
+		<div class="form-group"> 
+			<input type="text" class="form-control" placeholder="dsa" id="dsa" fdprocessedid="42zdk"> 
+		</div> 
+		<div class="form-group"> 
+			<input type="text" class="form-control" placeholder="java" id="java" fdprocessedid="gwpbgk"> 
+		</div> 
+		<div class="form-group"> 
+			<input type="text" class="form-control" placeholder="c++" id="c++" fdprocessedid="bclpcu9"> 
+		</div> 
+		<div> 
+			<input type="button" value="show Percentage" class="form-button" onclick="calculate()" fdprocessedid="sn2ahf"> 
+		</div> 
+		</div> 
+	</div> 
+	<div class="form-group showdata"> 
+		<p id="showdata"></p> 
+	</div> 
+	</div> 
+	<script src="./student calculate_files/arjun.js.download"></script> 
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+ 
+ 
+<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>
