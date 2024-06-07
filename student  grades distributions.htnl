@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>student calculate</title> 
+	<link
+	href= 
+"https://fonts.googleapis.com/css?family=Righteous&display=swap"
+	rel="stylesheet"
+	/> 
+	<link rel="stylesheet" href="arjun.css" /> 
+</head> 
+<body> 
+	<div class="container"> 
+	<h1>Student grade calculator</h1> 
+	<div class="screen-body-item"> 
+		<div class="app"> 
+		<div class="form-group"> 
+			<input
+			type="text"
+			class="form-control"
+			placeholder="databasemanagement"
+			id="databasemanagement"
+			/> 
+		</div> 
+		<div class="form-group"> 
+			<input
+			type="text"
+			class="form-control"
+			placeholder="dsa"
+			id="dsa"
+			/> 
+		</div> 
+		<div class="form-group"> 
+			<input
+			type="text"
+			class="form-control"
+			placeholder="java"
+			id="java"
+			/> 
+		</div> 
+		<div class="form-group"> 
+			<input
+			type="text"
+			class="form-control"
+			placeholder="c++"
+			id="c++"
+			/> 
+		</div> 
+		<div> 
+			<input
+			type="button"
+			value="show Percentage"
+			class="form-button"
+			onclick="calculate()"
+			/> 
+		</div> 
+		</div> 
+	</div> 
+	<div class="form-group showdata"> 
+		<p id="showdata"></p> 
+	</div> 
+	</div> 
+	<script src="arjun.js"></script> 
+</body> 
+</html> 
